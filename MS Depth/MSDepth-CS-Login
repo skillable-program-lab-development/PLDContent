@@ -15,8 +15,8 @@ Password: +++@lab.VirtualMachine(ML-SEA-Dev).Password+++
 > An Azure subscription has been provided for your use in this lab. Please use the following credentials to sign in:
 >
 > - Azure Portal: +++https://portal.azure.com/+++
-> - Username: +++@lab.CloudPortalCredential(LabUser).Username+++
-> - Temporary Access Pass (TAP) Token: +++@lab.CloudPortalCredential(LabUser).AccessToken+++
+> - Username: +++@lab.CloudPortalCredential(User1).Username+++
+> - Temporary Access Pass (TAP) Token: +++@lab.CloudPortalCredential(User1).AccessToken+++
 
 ---
 
