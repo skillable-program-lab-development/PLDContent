@@ -1,0 +1,29 @@
+<style>
+img {
+    border: 1px solid black;
+    }
+</style>
+
+## **Credentials**
+
+All credentials can be found in the **Resources** tab of the lab interface.
+
+<u>**Virtual Machine**</u>
+
+@lab.VirtualMachine(MSDepth).SelectLink
+
+Username: +++@lab.VirtualMachine(MSDepth).Username+++
+
+Password: +++@lab.VirtualMachine(MSDepth).Password+++
+
+---
+
+>[!Alert] Please use the Download button below to clone the necessary **Lab Files** to the **C:\** drive.
+>
+>@lab.Activity(downloadGHfiles)
+>
+>Verify the **Lab Files** are in the **C:\Lab Files** folder.
+
+Select **Next** to proceed to the labs.
+
+===
